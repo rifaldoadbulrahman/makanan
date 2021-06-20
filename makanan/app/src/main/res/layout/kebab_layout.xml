@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3BAAFF"
+            android:text="MAKANAN KHAS ISLAM ARAB"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/white"
+            android:textSize="12pt" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="172dp"
+            android:layout_height="172dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/kebab" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="kebab"
+            android:textStyle="bold"
+            android:layout_marginLeft="110dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="12pt" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Kebab adalah kudapan khas Timur Tengah berbahan dasar daging sapi, kambing, atau ayam cincang yang dicampur dengan sayuran, saus, mayones, dan kemudian dibungkus dengan kulit tortila dan dipanggang. Secara harfiah Kebab memiliki arti daging cincang. Kebab memiliki harga yang nikmat dan lezat serta berbeda-beda tergantung dari isiannya."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/btkembali"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="Kembali"
+            app:backgroundTint="#0BC5F3" />
+
+    </LinearLayout>
+</ScrollView>

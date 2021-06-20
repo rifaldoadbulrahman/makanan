@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3BAAFF"
+            android:text="MAKANAN KHAS ISLAM ARAB"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/white"
+            android:textSize="12pt" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="172dp"
+            android:layout_height="172dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/katayef" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="KATAYEF"
+            android:textStyle="bold"
+            android:layout_marginLeft="110dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="12pt" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Makanan khas Arab Saudi selanjutnya ini bernam katayef. Katayef merupakan makanan khas Arab Saudi semacam kue manis mirip panekuk namun berukuran mungil. Katayef dibuat dari adonan terigu, gula, ragi, dan susu selain itu ada juga yang menambahkan vanili maupun kayu manis sebagai aroma. Katayef biasa dijadikan sebagai makanan penutup."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="8pt" />
+
+
+
+        <Button
+            android:id="@+id/btkembali"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="Kembali"
+            app:backgroundTint="#0BC5F3" />
+
+    </LinearLayout>
+</ScrollView>
